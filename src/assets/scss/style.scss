@@ -1,0 +1,65 @@
+/*= ===============================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+button.close {
+  display: none !important;
+}
+
+.closeModal {
+  float: right !important;
+}
+.pointer{
+  cursor: pointer;
+}
+
+.dark-layout .header-navbar-shadow {
+  background: linear-gradient(
+180deg, rgb(34 34 34) 44%, rgba(22, 29, 49, 0.43) 73%, rgba(22, 29, 49, 0));
+}
+
+.main-menu .navigation > li.active > a {
+  box-shadow: none !important;
+  border-radius: 4px;
+}
+
+body {
+  font-family: Poppins,sans-serif!important;
+}
+
+
+.swal2-styled.swal2-confirm {
+  margin-right: 1rem;
+}
+
+body .swal2-popup {
+  display: none;
+  position: relative;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  width: 32em;
+  max-width: 100%;
+  padding: 1.25em;
+  border: none;
+  border-radius: 5px;
+  background: #ffffff;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+body.dark-layout .swal2-popup {
+  background: #2d2d2d;
+}
+
+.dark-layout .main-menu.menu-light .navigation>li.sidebar-group-active>a {
+  background: #222222;
+  border-radius: 6px;
+}
+
+.dark-layout .table.b-table > tbody .b-table-row-selected.table-active td {
+  background-color: #2a2e30 !important;
+}
