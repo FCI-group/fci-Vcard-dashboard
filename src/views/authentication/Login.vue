@@ -4,13 +4,12 @@
 
       <!-- Login v1 -->
       <b-card class="mb-0">
-        <b-link class="brand-logo">
+        <div class="brand-logo">
           <img
-            v-img
             :src="require('@/assets/images/logo/logo.png')"
             width="200"
           >
-        </b-link>
+        </div>
         <b-card-title class="mb-1">
           Welcome to FCI! 👋
         </b-card-title>
